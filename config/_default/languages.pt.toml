@@ -1,0 +1,20 @@
+languageName = "Português"
+contentDir = "content"
+weight = 1
+title = "Baú de Jogos Escutistas"
+
+# Configuração dos Menus
+[[menu.main]]
+  name = "Jogos"
+  url = "/games"
+  weight = 10
+
+[[menu.main]]
+  name = "Biblioteca"
+  url = "/library"
+  weight = 20
+
+[[menu.main]]
+  name = "Ferramentas"
+  url = "/tools"
+  weight = 30

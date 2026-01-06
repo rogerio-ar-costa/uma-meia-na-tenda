@@ -1,7 +1,7 @@
 ---
-title: "Os Meus Jogos"
-description: "Repositório de atividades e recursos"
-layout: "main"
+title: "⛺ Uma Meia na Tenda 🧦"
+description: "Repositório de Atividades e Recursos"
 showArticles: true
+articlesView: "grid" # Força a vista de cartões em grelha
 showPagination: true
 ---

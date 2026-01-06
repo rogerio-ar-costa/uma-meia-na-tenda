@@ -1,0 +1,43 @@
+[header]
+  layout = "classic" # Opções: "classic", "stacked", "fixed"
+  showLogo = true
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = false # Podes desativar para parecer mais "teu"
+  showAppearanceSwitcher = true # Permite ao utilizador mudar entre Light/Dark mode
+
+[article]
+  showDate = true
+  showViews = false
+  showReadingTime = true
+  showTaxonomies = true # Mostra as tags (Lobitos, Pioneiros, etc) no topo do jogo
+  showAuthor = false
+  showBreadcrumbs = true
+
+[list]
+  showSummary = true # Mostra a descrição no cartão
+  showCards = true   # Ativa o aspeto de cartões
+  cardView = "grid"  # Força a visualização em grelha
+
+[search]
+  showSearch = true
+  showAsOverlay = true # A pesquisa abre por cima do site, muito elegante
+
+[main]
+  sections = ["jogos", "biblioteca"] # Define o que aparece na página inicial
+
+# --- Configurações Visuais ---
+[appearance]
+  defaultAppearance = "dark" # Podes mudar para "light" ou "load" (conforme o browser)
+
+[brand]
+  # Podes escolher um esquema de cores pronto
+  # Opções: "blowfish", "fire", "emerald", "ocean", "forest", "slate"
+  colorScheme = "emerald" # O "emerald" (Esmeralda) é perfeito para escuteiros (verde)
+
+[homepage]
+  layout = "background" # Dá um destaque visual ao título do site
+  showArticles = true
+  showRecent = true
+  recentLimit = 6
