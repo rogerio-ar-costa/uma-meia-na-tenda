@@ -1,0 +1,14 @@
+theme = "blowfish"
+baseURL = "https://rogerio-ar-costa.github.io/uma-meia-na-tenda/"
+languageCode = "pt"
+title = "Baú de Jogos Escutistas"
+
+[params]
+  colorScheme = "blowfish" # Podes mudar para "fire", "aqua", etc.
+  defaultAppearance = "light" # ou "dark"
+  showSummary = true
+  showTaxonomies = true
+  showSearch = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
