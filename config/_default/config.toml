@@ -4,6 +4,22 @@ languageCode = "pt"
 defaultContentLanguage = "pt"
 title = "Baú de Jogos Escutistas"
 
+[menu]
+  [[menu.main]]
+    name = "Jogos"
+    url = "/games"
+    weight = 10
+
+  [[menu.main]]
+    name = "Biblioteca"
+    url = "/library"
+    weight = 20
+
+  [[menu.main]]
+    name = "Ferramentas"
+    url = "/tools"
+    weight = 30
+
 [params]
 colorScheme = "blowfish"    # Podes mudar para "fire", "aqua", etc.
 defaultAppearance = "light" # ou "dark"
