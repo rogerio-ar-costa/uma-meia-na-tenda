@@ -2,30 +2,31 @@ theme = "blowfish"
 baseURL = "http://localhost:1313/uma-meia-na-tenda/"
 languageCode = "pt"
 defaultContentLanguage = "pt"
-title = "Baú de Jogos Escutistas"
+title = "Baú de Recursos Escutistas"
+
+enableRobotsTXT = true
+enableEmoji = true
+
+[taxonomies]
+tag = "tags"
+category = "categories"
 
 [menu]
-  [[menu.main]]
-    name = "Jogos"
-    url = "/games"
-    weight = 10
+[[menu.main]]
+name = "Jogos"
+pageRef = "games"
+weight = 10
 
-  [[menu.main]]
-    name = "Biblioteca"
-    url = "/library"
-    weight = 20
+[[menu.main]]
+name = "Biblioteca"
+pageRef = "library"
+weight = 20
 
-  [[menu.main]]
-    name = "Ferramentas"
-    url = "/tools"
-    weight = 30
-
-[params]
-colorScheme = "blowfish"    # Podes mudar para "fire", "aqua", etc.
-defaultAppearance = "light" # ou "dark"
-showSummary = true
-showTaxonomies = true
-showSearch = true
+[[menu.main]]
+name = "Ferramentas"
+pageRef = "tools"
+weight = 30
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
+section = ["HTML", "RSS", "JSON"]

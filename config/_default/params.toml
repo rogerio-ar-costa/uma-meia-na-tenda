@@ -1,43 +1,94 @@
+colorScheme = "emerald"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+enableSearch = true
+enableCodeCopy = true
+
 [header]
-  layout = "classic" # Opções: "classic", "stacked", "fixed"
-  showLogo = true
+  layout = "fixed"
 
 [footer]
   showCopyright = true
-  showThemeAttribution = false # Podes desativar para parecer mais "teu"
-  showAppearanceSwitcher = true # Permite ao utilizador mudar entre Light/Dark mode
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+
+[homepage]
+  layout = "page"
+  showRecent = true
+  showRecentItems = 6
+  showMoreLink = true
+  showMoreLinkDest = "/games"
+  cardView = true
+  cardViewScreenWidth = false
 
 [article]
   showDate = true
   showViews = false
-  showReadingTime = true
-  showTaxonomies = true # Mostra as tags (Lobitos, Pioneiros, etc) no topo do jogo
+  showLikes = false
+  showDateUpdated = false
   showAuthor = false
+  showHero = true
+  heroStyle = "background"
+  layoutBackgroundBlur = true
   showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  showSummary = true
+  showTableOfContents = false
+  showTaxonomies = true
+  showWordCount = true
+  showReadingTime = true
+  sharingLinks = false
 
 [list]
-  showSummary = true # Mostra a descrição no cartão
-  showCards = true   # Ativa o aspeto de cartões
-  cardView = "grid"  # Força a visualização em grelha
+  showHero = true
+  heroStyle = "background"
+  showBreadcrumbs = true
+  showSummary = true
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  showCards = true
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = false
+  constrainItemsWidth = false
 
-[search]
-  showSearch = true
-  showAsOverlay = true # A pesquisa abre por cima do site, muito elegante
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
 
-[main]
-  sections = ["jogos", "biblioteca"] # Define o que aparece na página inicial
+[taxonomy]
+  showTermCount = true
+  showHero = true
+  heroStyle = "background"
+  showBreadcrumbs = true
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  cardView = true
 
-# --- Configurações Visuais ---
-[appearance]
-  defaultAppearance = "dark" # Podes mudar para "light" ou "load" (conforme o browser)
+[term]
+  showHero = true
+  heroStyle = "background"
+  showBreadcrumbs = true
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = false
 
-[brand]
-  # Podes escolher um esquema de cores pronto
-  # Opções: "blowfish", "fire", "emerald", "ocean", "forest", "slate"
-  colorScheme = "emerald" # O "emerald" (Esmeralda) é perfeito para escuteiros (verde)
+[fathomAnalytics]
+  site = ""
 
-[homepage]
-  layout = "background" # Dá um destaque visual ao título do site
-  showArticles = true
-  showRecent = true
-  recentLimit = 6
+[buymeacoffee]
+  identifier = ""
+
+[verification]
+  google = ""
+  bing = ""
+  pinterest = ""
+  yandex = ""

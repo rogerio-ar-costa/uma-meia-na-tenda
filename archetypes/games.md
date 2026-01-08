@@ -1,17 +1,33 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+description: "Breve descrição do jogo"
 date: {{ .Date }}
-draft: false
-description: "Breve descrição do jogo para o cartão."
-tags: ["Lobitos"]
-categories: ["Interior"]
-showAuthor: false
-showTaxonomies: true
+tags: ["Lobitos", "Interior"]
+categories: ["Jogos"]
 ---
 
-### Objetivo
+Introdução ao jogo.
+
+## Objetivo
+
 Descreve aqui o que se pretende com o jogo.
 
-### Material
+## Material Necessário
+
 * Item 1
 * Item 2
+
+## Como Jogar
+
+1. Passo 1
+2. Passo 2
+3. Passo 3
+
+## Dicas
+
+* Dica 1
+* Dica 2
+
+## Variações (opcional)
+
+Descreve variações do jogo para diferentes idades ou condições.
