@@ -1,0 +1,139 @@
+/* Background full screen para homepage */
+.home .article-content {
+  position: relative;
+}
+
+.home .article-content::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.05;
+  background-image:
+    linear-gradient(45deg, transparent 48%, currentColor 49%, currentColor 51%, transparent 52%),
+    linear-gradient(-45deg, transparent 48%, currentColor 49%, currentColor 51%, transparent 52%);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+  pointer-events: none;
+}
+
+/* Background pattern alternativo - descomente para usar */
+/*
+.home .article-content::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.03;
+  background:
+    radial-gradient(circle at 20% 50%, rgba(16, 185, 129, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(16, 185, 129, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 40% 20%, rgba(16, 185, 129, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+*/
+
+/* Efeito sutil de movimento no background (opcional) */
+@media (prefers-reduced-motion: no-preference) {
+  .home .article-content::before {
+    animation: subtleMove 60s ease-in-out infinite;
+  }
+}
+
+@keyframes subtleMove {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-20px) scale(1.02);
+  }
+}
+
+/* Melhorias visuais para os cards */
+.home a[class*="rounded-lg"] {
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.home a[class*="rounded-lg"]:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode adjustments */
+.dark .home .article-content::before {
+  opacity: 0.03;
+}
+
+/* Conteúdo de artigos ocupa largura total */
+.single article.max-w-prose,
+.single .prose {
+  max-width: 100% !important;
+}
+
+/* Homepage mantém largura controlada */
+.home article.max-w-prose {
+  max-width: 100% !important;
+}
+
+/* Grid de cards recentes mais compacto */
+.grid {
+  gap: 1rem !important;
+}
+
+/* Cards de conteúdo menores */
+.recent-articles article {
+  font-size: 0.9rem;
+}
+
+.recent-articles h2 {
+  font-size: 1.1rem !important;
+  line-height: 1.3 !important;
+}
+
+.recent-articles .summary {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Imagens dos cards menores e com aspect ratio consistente */
+.recent-articles img {
+  max-height: 120px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Padding reduzido nos cards */
+.recent-articles article > div {
+  padding: 0.75rem !important;
+}
+
+/* Grid responsivo compacto */
+@media (min-width: 640px) {
+  .recent-articles {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .recent-articles {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .recent-articles {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+}
