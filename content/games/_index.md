@@ -1,5 +1,5 @@
 ---
-title: "🥾 Jogos e Dinâmicas de Grupo"
+title: "🎯 Jogos e Atividades"
 description: "Jogos e atividades para todas as secções escutistas"
 cascade:
   showReadingTime: true

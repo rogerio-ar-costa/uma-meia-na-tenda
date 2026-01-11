@@ -1,9 +1,8 @@
 theme = "blowfish"
-baseURL = "http://localhost:1313/uma-meia-na-tenda/"
+baseURL = "http://localhost:1313/"
 languageCode = "pt"
 defaultContentLanguage = "pt"
-title = "Baú de Recursos Escutistas"
-
+#title = "Baú de Recursos Escutistas"
 enableRobotsTXT = true
 enableEmoji = true
 
@@ -13,17 +12,17 @@ category = "categories"
 
 [menu]
 [[menu.main]]
-name = "Jogos"
+name = "🎯 Jogos"
 pageRef = "games"
 weight = 10
 
 [[menu.main]]
-name = "Biblioteca"
+name = "📖 Recursos"
 pageRef = "library"
 weight = 20
 
 [[menu.main]]
-name = "Ferramentas"
+name = "🛠️ Ferramentas"
 pageRef = "tools"
 weight = 30
 

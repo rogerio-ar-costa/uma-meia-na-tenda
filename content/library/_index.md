@@ -1,5 +1,5 @@
 ---
-title: "📚 Biblioteca"
+title: "📖 Recursos Pedagógicos"
 description: "Livros e recursos de aprendizagem para escuteiros"
 cascade:
   showReadingTime: true
