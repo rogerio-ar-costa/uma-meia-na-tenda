@@ -1,5 +1,6 @@
 ---
-title: "⛺ Uma Meia na Tenda 🧦"
+#title: "⛺ Uma Meia na Tenda 🧦"
+title: "📦 Baú de Recursos Escutistas"
 description: "Projeto de formação escutista - Baú de recursos para dirigentes e escuteiros"
 cascade:
   showEdit: false
@@ -7,14 +8,13 @@ cascade:
   showReadingTime: true
 ---
 
-{{< lead >}}
-{{< /lead >}}
+Bem-vindo ao **Baú de Recursos Escutistas**!
 
-**Uma Meia na Tenda** é um projeto de formação escutista que disponibiliza o **Baú de Recursos Escutistas**.
-Trata-se de um repositório colaborativo com jogos, materiais pedagógicos e ferramentas práticas para dirigentes e escuteiros de todas as secções:
-- 🎯 **Jogos e Atividades**
-- 📖 **Recursos Pedagógicos**
-- 🔧 **Ferramentas e Utilitários**
+Este é um repositório colaborativo que faz parte de uma iniciativa de formação escutista, criado para apoiar dirigentes e escuteiros de todas as secções.
+Aqui encontras uma coleção cuidadosamente organizada de:
+- 🎯 **Jogos e Atividades** → Dinâmicas divertidas e educativas para todas as idades;
+- 📖 **Recursos Pedagógicos** → Materiais de apoio à formação e desenvolvimento escutista;
+- 🛠️ **Ferramentas e Utilitários** → Recursos práticos para facilitar o trabalho dos dirigentes.
 
 <!--
 ### Vídeo de Apresentação

@@ -7,7 +7,7 @@ tags: ["Técnicas", "Todos", "Pioneirismo"]
 categories: ["Jogos"]
 showHero: true
 heroStyle: "basic"
-showTableOfContents: false
+showTableOfContents: true
 ---
 
 Os nós e amarras são técnicas fundamentais que todo o escuteiro deve dominar.

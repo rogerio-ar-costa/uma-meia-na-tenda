@@ -5,6 +5,9 @@ summary: "Captura a bandeira adversária com estratégia e trabalho de equipa"
 date: 2026-01-07
 tags: ["Exploradores", "Pioneiros", "Exterior", "Equipa"]
 categories: ["Jogos"]
+showHero: true
+heroStyle: "basic"
+showTableOfContents: true
 ---
 
 O Jogo da Bandeira é um clássico dos escuteiros que combina estratégia, trabalho de equipa e ação física.

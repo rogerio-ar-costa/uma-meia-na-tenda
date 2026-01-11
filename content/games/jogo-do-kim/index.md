@@ -5,6 +5,9 @@ summary: "Treina memória e observação com objetos variados"
 date: 2026-01-06
 tags: ["Lobitos", "Exploradores", "Memória", "Interior"]
 categories: ["Jogos"]
+showHero: true
+heroStyle: "basic"
+showTableOfContents: true
 ---
 
 O Jogo do Kim é uma das ferramentas mais antigas e eficazes para treinar os sentidos e a memória dos escuteiros.
