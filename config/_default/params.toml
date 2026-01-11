@@ -21,6 +21,7 @@ layout = "page"
 # showMoreLinkDest = "/games"
 cardView = true
 cardViewScreenWidth = false
+layoutBackgroundBlur = true
 
 [article]
 showDate = true
