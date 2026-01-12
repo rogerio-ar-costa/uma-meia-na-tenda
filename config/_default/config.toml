@@ -1,10 +1,20 @@
 theme = "blowfish"
 baseURL = "http://localhost:1313/"
+title = "Baú de Recursos Escutistas"
 languageCode = "pt"
+languageName = "Português"
 defaultContentLanguage = "pt"
-#title = "Baú de Recursos Escutistas"
+rtl = false
 enableRobotsTXT = true
 enableEmoji = true
+disableLanguages = []
+
+
+[params]
+dateFormat = "2 January 2006"
+
+[params.footer]
+copyright = "🧦Uma Meia na Tenda ⛺  /2026"
 
 [taxonomies]
 tag = "tags"

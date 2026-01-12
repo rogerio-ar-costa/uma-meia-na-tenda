@@ -1,9 +1,10 @@
-/* Background full screen para homepage */
-.home .article-content {
+/* Padrão de fundo subtil com linhas diagonais verdes */
+body {
   position: relative;
+  background-color: #ffffff;
 }
 
-.home .article-content::before {
+body::before {
   content: "";
   position: fixed;
   top: 0;
@@ -11,47 +12,60 @@
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: 0.05;
+  background-color: #f9fafb;
   background-image:
-    linear-gradient(45deg, transparent 48%, currentColor 49%, currentColor 51%, transparent 52%),
-    linear-gradient(-45deg, transparent 48%, currentColor 49%, currentColor 51%, transparent 52%);
-  background-size: 60px 60px;
-  background-position: 0 0, 30px 30px;
+    /* Gradientes radiais nos cantos - mais visíveis */
+    radial-gradient(circle at 10% 20%, rgba(16, 185, 129, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 90% 80%, rgba(5, 150, 105, 0.08) 0%, transparent 50%),
+    /* Linhas diagonais - mais visíveis e mais largas */
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 50px,
+      rgba(16, 185, 129, 0.06) 50px,
+      rgba(16, 185, 129, 0.06) 52px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 50px,
+      rgba(5, 150, 105, 0.05) 50px,
+      rgba(5, 150, 105, 0.05) 52px
+    );
+  background-size:
+    100% 100%,
+    100% 100%,
+    100px 100px,
+    100px 100px;
+  background-position:
+    0 0,
+    0 0,
+    0 0,
+    0 0;
   pointer-events: none;
 }
 
-/* Background pattern alternativo - descomente para usar */
-/*
-.home .article-content::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  opacity: 0.03;
-  background:
-    radial-gradient(circle at 20% 50%, rgba(16, 185, 129, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(16, 185, 129, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 40% 20%, rgba(16, 185, 129, 0.1) 0%, transparent 50%);
-  pointer-events: none;
-}
-*/
-
-/* Efeito sutil de movimento no background (opcional) */
+/* Animação suave de movimento */
 @media (prefers-reduced-motion: no-preference) {
-  .home .article-content::before {
-    animation: subtleMove 60s ease-in-out infinite;
+  body::before {
+    animation: subtleMove 120s ease-in-out infinite;
   }
 }
 
 @keyframes subtleMove {
   0%, 100% {
-    transform: translateY(0) scale(1);
+    background-position:
+      0 0,
+      0 0,
+      0 0,
+      0 0;
   }
   50% {
-    transform: translateY(-20px) scale(1.02);
+    background-position:
+      0 0,
+      0 0,
+      10px 10px,
+      -10px -10px;
   }
 }
 
@@ -66,9 +80,32 @@
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
 }
 
-/* Dark mode adjustments */
-.dark .home .article-content::before {
-  opacity: 0.03;
+/* Versão dark mode do padrão */
+.dark body {
+  background-color: #0f172a;
+}
+
+.dark body::before {
+  background-color: #0f172a;
+  background-image:
+    /* Gradientes radiais nos cantos - visíveis em dark mode */
+    radial-gradient(circle at 10% 20%, rgba(16, 185, 129, 0.10) 0%, transparent 50%),
+    radial-gradient(circle at 90% 80%, rgba(5, 150, 105, 0.10) 0%, transparent 50%),
+    /* Linhas diagonais - mais visíveis */
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 50px,
+      rgba(16, 185, 129, 0.08) 50px,
+      rgba(16, 185, 129, 0.08) 52px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 50px,
+      rgba(5, 150, 105, 0.06) 50px,
+      rgba(5, 150, 105, 0.06) 52px
+    );
 }
 
 /* Conteúdo de artigos ocupa largura total */

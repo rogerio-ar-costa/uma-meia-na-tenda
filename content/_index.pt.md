@@ -1,5 +1,4 @@
 ---
-#title: "⛺ Uma Meia na Tenda 🧦"
 title: "📦 Baú de Recursos Escutistas"
 description: "Projeto de formação escutista - Baú de recursos para dirigentes e escuteiros"
 cascade:
@@ -25,29 +24,22 @@ Aqui encontras uma coleção cuidadosamente organizada de:
 
 ---
 
+<!--
 ### Explora o Baú de Recursos
+-->
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 mb-12">
   <a href="games/" class="flex flex-col p-6 rounded-lg border-2 border-neutral-200 dark:border-neutral-700 hover:border-primary-600 dark:hover:border-primary-400 transition-colors no-underline">
-  <!--
-    <div class="text-4xl mb-4">🎮</div>
-  -->
     <h3 class="text-xl font-bold mb-2 text-neutral-800 dark:text-neutral-200">🎯 Jogos e Atividades</h3>
     <p class="text-neutral-600 dark:text-neutral-400">Atividades divertidas e educativas para todas as secções escutistas. Desde jogos ao ar livre até dinâmicas de grupo.</p>
   </a>
 
   <a href="library/" class="flex flex-col p-6 rounded-lg border-2 border-neutral-200 dark:border-neutral-700 hover:border-primary-600 dark:hover:border-primary-400 transition-colors no-underline">
-  <!--
-    <div class="text-4xl mb-4">📚</div>
-  -->
     <h3 class="text-xl font-bold mb-2 text-neutral-800 dark:text-neutral-200">📖 Recursos Pedagógicos</h3>
     <p class="text-neutral-600 dark:text-neutral-400">Livros, manuais e recursos de aprendizagem para apoiar o desenvolvimento escutista e a formação de dirigentes.</p>
   </a>
 
   <a href="tools/" class="flex flex-col p-6 rounded-lg border-2 border-neutral-200 dark:border-neutral-700 hover:border-primary-600 dark:hover:border-primary-400 transition-colors no-underline">
-  <!--
-    <div class="text-4xl mb-4">🛠️</div>
-  -->
     <h3 class="text-xl font-bold mb-2 text-neutral-800 dark:text-neutral-200">🛠️ Ferramentas e Utilitários</h3>
     <p class="text-neutral-600 dark:text-neutral-400">Recursos digitais e utilitários práticos para facilitar o trabalho dos dirigentes e a organização de atividades.</p>
   </a>
