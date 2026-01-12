@@ -1,3 +1,26 @@
+/* Esconder seletor de língua completamente */
+#lang-switcher,
+.lang-switcher,
+[id*="language"],
+[class*="language"],
+button[aria-label*="anguage"],
+button[title*="anguage"],
+.language-select,
+.language-selector,
+nav select,
+header select,
+header button[id*="lang"],
+header button[class*="lang"],
+header div[id*="lang"],
+header div[class*="lang"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  position: absolute !important;
+  left: -9999px !important;
+}
+
 /* Padrão de fundo subtil com linhas diagonais verdes */
 body {
   position: relative;
@@ -80,6 +103,28 @@ body::before {
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
 }
 
+/* Ajustar cor dos links no modo light - verde acinzentado subtil */
+a {
+  color: #4b5563 !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #059669 !important;
+  text-decoration: none !important;
+}
+
+/* Links em prosa/artigos */
+.prose a {
+  color: #4b5563 !important;
+  text-decoration: none !important;
+}
+
+.prose a:hover {
+  color: #059669 !important;
+  text-decoration: none !important;
+}
+
 /* Versão dark mode do padrão */
 .dark body {
   background-color: #0f172a;
@@ -106,6 +151,104 @@ body::before {
       rgba(5, 150, 105, 0.06) 50px,
       rgba(5, 150, 105, 0.06) 52px
     );
+}
+
+/* Tags e categorias em light mode - cinza escuro */
+.tag,
+[class*="badge"],
+.taxonomy-tag,
+.taxonomy-category,
+a[href*="/tags/"] span,
+a[href*="/categories/"] span,
+.term-count {
+  background-color: #e5e7eb !important;
+  color: #1f2937 !important;
+  border-color: #d1d5db !important;
+}
+
+.tag:hover,
+[class*="badge"]:hover,
+.taxonomy-tag:hover,
+.taxonomy-category:hover,
+a[href*="/tags/"]:hover span,
+a[href*="/categories/"]:hover span {
+  background-color: #d1d5db !important;
+  color: #111827 !important;
+}
+
+/* Links em dark mode - branco */
+.dark a {
+  color: #f9fafb !important;
+}
+
+.dark a:hover {
+  color: #ffffff !important;
+}
+
+.dark .prose a {
+  color: #f9fafb !important;
+}
+
+.dark .prose a:hover {
+  color: #ffffff !important;
+}
+
+/* Forçar links brancos em dark mode - sobrescrever cores do tema */
+.dark [class*="text-primary"],
+.dark [class*="text-blue"],
+.dark a[class*="text-"],
+.dark .dark\:text-primary-400 {
+  color: #f9fafb !important;
+}
+
+.dark [class*="text-primary"]:hover,
+.dark [class*="text-blue"]:hover,
+.dark a[class*="text-"]:hover,
+.dark .dark\:text-primary-400:hover {
+  color: #ffffff !important;
+}
+
+/* Tags e categorias em dark mode - brancas */
+.dark .tag,
+.dark [class*="badge"],
+.dark .taxonomy-tag,
+.dark .taxonomy-category,
+.dark a[href*="/tags/"],
+.dark a[href*="/tags/"] *,
+.dark a[href*="/categories/"],
+.dark a[href*="/categories/"] *,
+.dark .term-count {
+  background-color: #374151 !important;
+  color: #f9fafb !important;
+  border-color: #4b5563 !important;
+}
+
+.dark .tag:hover,
+.dark [class*="badge"]:hover,
+.dark .taxonomy-tag:hover,
+.dark .taxonomy-category:hover,
+.dark a[href*="/tags/"]:hover,
+.dark a[href*="/tags/"]:hover *,
+.dark a[href*="/categories/"]:hover,
+.dark a[href*="/categories/"]:hover * {
+  background-color: #4b5563 !important;
+  color: #ffffff !important;
+}
+
+/* Sobrescrever completamente classes de cores do tema em tags/categorias */
+.dark a[href*="/tags/"][class*="text-primary"],
+.dark a[href*="/tags/"] [class*="text-primary"],
+.dark a[href*="/categories/"][class*="text-primary"],
+.dark a[href*="/categories/"] [class*="text-primary"],
+.dark .dark\:text-primary-400 {
+  color: #f9fafb !important;
+  background-color: #374151 !important;
+}
+
+.dark a[href*="/tags/"]:hover [class*="text-primary"],
+.dark a[href*="/categories/"]:hover [class*="text-primary"] {
+  color: #ffffff !important;
+  background-color: #4b5563 !important;
 }
 
 /* Conteúdo de artigos ocupa largura total */

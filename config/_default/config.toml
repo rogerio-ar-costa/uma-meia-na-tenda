@@ -2,15 +2,13 @@ theme = "blowfish"
 baseURL = "http://localhost:1313/"
 title = "Baú de Recursos Escutistas"
 languageCode = "pt"
-languageName = "Português"
 defaultContentLanguage = "pt"
-rtl = false
 enableRobotsTXT = true
 enableEmoji = true
-disableLanguages = []
 
 
 [params]
+description = "Baú de Recursos Escutistas - Iniciativa de formação escutista"
 dateFormat = "2 January 2006"
 
 [params.footer]
@@ -38,4 +36,3 @@ weight = 30
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
-section = ["HTML", "RSS", "JSON"]
