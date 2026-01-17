@@ -1,14 +1,38 @@
 theme = "blowfish"
-baseURL = "https://rogerio-ar-costa.github.io/uma-meia-na-tenda/"
+baseURL = "http://localhost:1313/"
+title = "Baú de Recursos Escutistas"
 languageCode = "pt"
-title = "Baú de Jogos Escutistas"
+defaultContentLanguage = "pt"
+enableRobotsTXT = true
+enableEmoji = true
+
 
 [params]
-  colorScheme = "blowfish" # Podes mudar para "fire", "aqua", etc.
-  defaultAppearance = "light" # ou "dark"
-  showSummary = true
-  showTaxonomies = true
-  showSearch = true
+description = "Baú de Recursos Escutistas - Iniciativa de formação escutista"
+dateFormat = "2 January 2006"
+
+[params.footer]
+copyright = "🧦Uma Meia na Tenda ⛺  /2026"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[menu]
+[[menu.main]]
+name = "🎯 Jogos"
+pageRef = "games"
+weight = 10
+
+[[menu.main]]
+name = "📖 Recursos"
+pageRef = "library"
+weight = 20
+
+[[menu.main]]
+name = "🛠️ Ferramentas"
+pageRef = "tools"
+weight = 30
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON"]

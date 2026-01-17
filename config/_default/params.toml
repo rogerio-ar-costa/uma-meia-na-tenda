@@ -1,0 +1,96 @@
+colorScheme = "emerald"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+enableSearch = true
+enableCodeCopy = true
+
+[header]
+layout = "fixed"
+showLanguageChooser = false
+
+[footer]
+showCopyright = true
+showThemeAttribution = false
+showAppearanceSwitcher = true
+
+[homepage]
+layout = "page"
+#  showRecent = true
+#  showRecentItems = 6
+# showMoreLink = true
+# showMoreLinkDest = "/games"
+cardView = true
+cardViewScreenWidth = false
+layoutBackgroundBlur = true
+
+[article]
+showDate = true
+showViews = false
+showLikes = false
+showDateUpdated = false
+showAuthor = false
+showHero = true
+heroStyle = "background"
+layoutBackgroundBlur = true
+showBreadcrumbs = true
+showDraftLabel = true
+showEdit = false
+showSummary = true
+showTableOfContents = false
+showTaxonomies = true
+showWordCount = true
+showReadingTime = true
+sharingLinks = false
+
+[list]
+showHero = true
+heroStyle = "background"
+showBreadcrumbs = true
+showSummary = true
+showViews = false
+showLikes = false
+showTableOfContents = false
+showCards = true
+groupByYear = false
+cardView = true
+cardViewScreenWidth = false
+constrainItemsWidth = false
+
+[sitemap]
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5
+
+[taxonomy]
+showTermCount = true
+showHero = true
+heroStyle = "background"
+showBreadcrumbs = true
+showViews = false
+showLikes = false
+showTableOfContents = false
+cardView = true
+
+[term]
+showHero = true
+heroStyle = "background"
+showBreadcrumbs = true
+showViews = false
+showLikes = false
+showTableOfContents = false
+groupByYear = false
+cardView = true
+cardViewScreenWidth = false
+
+[fathomAnalytics]
+site = ""
+
+[buymeacoffee]
+identifier = ""
+
+[verification]
+google = ""
+bing = ""
+pinterest = ""
+yandex = ""

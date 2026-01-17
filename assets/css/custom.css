@@ -1,0 +1,319 @@
+/* Esconder seletor de língua completamente */
+#lang-switcher,
+.lang-switcher,
+[id*="language"],
+[class*="language"],
+button[aria-label*="anguage"],
+button[title*="anguage"],
+.language-select,
+.language-selector,
+nav select,
+header select,
+header button[id*="lang"],
+header button[class*="lang"],
+header div[id*="lang"],
+header div[class*="lang"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  position: absolute !important;
+  left: -9999px !important;
+}
+
+/* Padrão de fundo subtil com linhas diagonais verdes */
+body {
+  position: relative;
+  background-color: #ffffff;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #f9fafb;
+  background-image:
+    /* Gradientes radiais nos cantos - mais visíveis */
+    radial-gradient(circle at 10% 20%, rgba(16, 185, 129, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 90% 80%, rgba(5, 150, 105, 0.08) 0%, transparent 50%),
+    /* Linhas diagonais - mais visíveis e mais largas */
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 50px,
+      rgba(16, 185, 129, 0.06) 50px,
+      rgba(16, 185, 129, 0.06) 52px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 50px,
+      rgba(5, 150, 105, 0.05) 50px,
+      rgba(5, 150, 105, 0.05) 52px
+    );
+  background-size:
+    100% 100%,
+    100% 100%,
+    100px 100px,
+    100px 100px;
+  background-position:
+    0 0,
+    0 0,
+    0 0,
+    0 0;
+  pointer-events: none;
+}
+
+/* Animação suave de movimento */
+@media (prefers-reduced-motion: no-preference) {
+  body::before {
+    animation: subtleMove 120s ease-in-out infinite;
+  }
+}
+
+@keyframes subtleMove {
+  0%, 100% {
+    background-position:
+      0 0,
+      0 0,
+      0 0,
+      0 0;
+  }
+  50% {
+    background-position:
+      0 0,
+      0 0,
+      10px 10px,
+      -10px -10px;
+  }
+}
+
+/* Melhorias visuais para os cards */
+.home a[class*="rounded-lg"] {
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.home a[class*="rounded-lg"]:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustar cor dos links no modo light - verde acinzentado subtil */
+a {
+  color: #4b5563 !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #059669 !important;
+  text-decoration: none !important;
+}
+
+/* Links em prosa/artigos */
+.prose a {
+  color: #4b5563 !important;
+  text-decoration: none !important;
+}
+
+.prose a:hover {
+  color: #059669 !important;
+  text-decoration: none !important;
+}
+
+/* Versão dark mode do padrão */
+.dark body {
+  background-color: #0f172a;
+}
+
+.dark body::before {
+  background-color: #0f172a;
+  background-image:
+    /* Gradientes radiais nos cantos - visíveis em dark mode */
+    radial-gradient(circle at 10% 20%, rgba(16, 185, 129, 0.10) 0%, transparent 50%),
+    radial-gradient(circle at 90% 80%, rgba(5, 150, 105, 0.10) 0%, transparent 50%),
+    /* Linhas diagonais - mais visíveis */
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 50px,
+      rgba(16, 185, 129, 0.08) 50px,
+      rgba(16, 185, 129, 0.08) 52px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 50px,
+      rgba(5, 150, 105, 0.06) 50px,
+      rgba(5, 150, 105, 0.06) 52px
+    );
+}
+
+/* Tags e categorias em light mode - cinza escuro */
+.tag,
+[class*="badge"],
+.taxonomy-tag,
+.taxonomy-category,
+a[href*="/tags/"] span,
+a[href*="/categories/"] span,
+.term-count {
+  background-color: #e5e7eb !important;
+  color: #1f2937 !important;
+  border-color: #d1d5db !important;
+}
+
+.tag:hover,
+[class*="badge"]:hover,
+.taxonomy-tag:hover,
+.taxonomy-category:hover,
+a[href*="/tags/"]:hover span,
+a[href*="/categories/"]:hover span {
+  background-color: #d1d5db !important;
+  color: #111827 !important;
+}
+
+/* Links em dark mode - branco */
+.dark a {
+  color: #f9fafb !important;
+}
+
+.dark a:hover {
+  color: #ffffff !important;
+}
+
+.dark .prose a {
+  color: #f9fafb !important;
+}
+
+.dark .prose a:hover {
+  color: #ffffff !important;
+}
+
+/* Forçar links brancos em dark mode - sobrescrever cores do tema */
+.dark [class*="text-primary"],
+.dark [class*="text-blue"],
+.dark a[class*="text-"],
+.dark .dark\:text-primary-400 {
+  color: #f9fafb !important;
+}
+
+.dark [class*="text-primary"]:hover,
+.dark [class*="text-blue"]:hover,
+.dark a[class*="text-"]:hover,
+.dark .dark\:text-primary-400:hover {
+  color: #ffffff !important;
+}
+
+/* Tags e categorias em dark mode - brancas */
+.dark .tag,
+.dark [class*="badge"],
+.dark .taxonomy-tag,
+.dark .taxonomy-category,
+.dark a[href*="/tags/"],
+.dark a[href*="/tags/"] *,
+.dark a[href*="/categories/"],
+.dark a[href*="/categories/"] *,
+.dark .term-count {
+  background-color: #374151 !important;
+  color: #f9fafb !important;
+  border-color: #4b5563 !important;
+}
+
+.dark .tag:hover,
+.dark [class*="badge"]:hover,
+.dark .taxonomy-tag:hover,
+.dark .taxonomy-category:hover,
+.dark a[href*="/tags/"]:hover,
+.dark a[href*="/tags/"]:hover *,
+.dark a[href*="/categories/"]:hover,
+.dark a[href*="/categories/"]:hover * {
+  background-color: #4b5563 !important;
+  color: #ffffff !important;
+}
+
+/* Sobrescrever completamente classes de cores do tema em tags/categorias */
+.dark a[href*="/tags/"][class*="text-primary"],
+.dark a[href*="/tags/"] [class*="text-primary"],
+.dark a[href*="/categories/"][class*="text-primary"],
+.dark a[href*="/categories/"] [class*="text-primary"],
+.dark .dark\:text-primary-400 {
+  color: #f9fafb !important;
+  background-color: #374151 !important;
+}
+
+.dark a[href*="/tags/"]:hover [class*="text-primary"],
+.dark a[href*="/categories/"]:hover [class*="text-primary"] {
+  color: #ffffff !important;
+  background-color: #4b5563 !important;
+}
+
+/* Conteúdo de artigos ocupa largura total */
+.single article.max-w-prose,
+.single .prose {
+  max-width: 100% !important;
+}
+
+/* Homepage mantém largura controlada */
+.home article.max-w-prose {
+  max-width: 100% !important;
+}
+
+/* Grid de cards recentes mais compacto */
+.grid {
+  gap: 1rem !important;
+}
+
+/* Cards de conteúdo menores */
+.recent-articles article {
+  font-size: 0.9rem;
+}
+
+.recent-articles h2 {
+  font-size: 1.1rem !important;
+  line-height: 1.3 !important;
+}
+
+.recent-articles .summary {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Imagens dos cards menores e com aspect ratio consistente */
+.recent-articles img {
+  max-height: 120px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Padding reduzido nos cards */
+.recent-articles article > div {
+  padding: 0.75rem !important;
+}
+
+/* Grid responsivo compacto */
+@media (min-width: 640px) {
+  .recent-articles {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .recent-articles {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .recent-articles {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+}

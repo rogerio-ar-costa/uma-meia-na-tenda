@@ -1,0 +1,33 @@
+# Hugo build output
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Local Hugo binary
+.bin/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+#.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+dist/
+.cache/
+*.o
+*.a
+*.so
+
+# Environment
+.env
+.env.local
+
+
+# AI Tools
+/.claude
