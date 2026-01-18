@@ -3,7 +3,7 @@ title: "Hit the Bucket"
 summary: "Jogo dinâmico de pontaria e reflexos com balde e bastão"
 description: "Jogo de exterior onde os escuteiros tentam acertar num balde enquanto um jogador o defende com um bastão escutista"
 date: 2026-01-18
-tags: ["quebra-gelo", "Lobitos", "Exploradores", "Pioneiros", "Caminheiros", "Dirigentes", "Exterior", "Equipa"]
+tags: ["quebra-gelo", "Lobitos", "Exploradores", "Pioneiros", "Caminheiros", "Dirigentes", "Exterior"]
 categories: ["Jogos"]
 ---
 
