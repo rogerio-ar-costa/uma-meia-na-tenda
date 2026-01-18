@@ -3,6 +3,7 @@ baseURL = "http://localhost:1313/"
 title = "Baú de Recursos Escutistas"
 languageCode = "pt"
 defaultContentLanguage = "pt"
+disableLanguages = ["en"]
 enableRobotsTXT = true
 enableEmoji = true
 
