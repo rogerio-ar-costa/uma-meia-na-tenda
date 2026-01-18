@@ -2,7 +2,7 @@
 title: "Cifras Escutistas"
 summary: "Ferramentas para codificar e descodificar mensagens com códigos secretos escutistas"
 description: "Ferramentas online para trabalhar com cifras e códigos secretos utilizados no escutismo"
-tags: ["cifras", "códigos", "escutismo", "morse", "criptografia"]
+tags: ["cifras", "códigos", "morse", "criptografia"]
 categories: ["Ferramentas"]
 ---
 
