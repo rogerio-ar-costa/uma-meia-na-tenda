@@ -11,6 +11,8 @@ Jogo dinâmico e divertido onde os participantes formam um círculo e tentam ace
 
 ### Material Necessário
 
+![Hit the Bucket em ação](action.jpg)
+
 - 1 balde resistente (tipo balde de 20 litros)
 - 1 vara / bastão
 - 1 bola grande de borracha (tipo bola de recreio)

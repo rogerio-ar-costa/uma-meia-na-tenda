@@ -145,6 +145,11 @@ Introdução breve ao jogo.
 - Item 2
 - Item 3
 
+## Imagem do Jogo
+Deves incluir uma imagem gerada por AI que ilustre o jogo ou os materiais necessários (estilo desenho animado e colorido).
+Salva a imagem como `image.jpg` (ou nome relevante) e adiciona ao conteúdo:
+`![Descrição da imagem](image.jpg)`
+
 ## Como Jogar
 1. Passo 1
 2. Passo 2
