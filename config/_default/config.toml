@@ -37,3 +37,10 @@ weight = 30
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
+
+[[menu.footer]]
+name = "📋 Reportar Conteúdo"
+url = "#"
+weight = 10
+[menu.footer.params]
+newTab = true
