@@ -12,6 +12,10 @@ showTableOfContents: true
 
 Força, equilíbrio e trabalho de equipa para pescar todos os elementos!
 
+## Imagem do Jogo
+![Pesca de Escuteiros em ação](action.jpg)
+
+
 ## Material Necessário
 
 - 1 corda por equipa

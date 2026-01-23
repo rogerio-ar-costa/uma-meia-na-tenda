@@ -12,6 +12,10 @@ showTableOfContents: true
 
 Teste de motricidade fina e velocidade!
 
+## Imagem do Jogo
+![Copos e Molas em ação](action.jpg)
+
+
 ## Material Necessário
 
 - 1 mola de roupa por equipa

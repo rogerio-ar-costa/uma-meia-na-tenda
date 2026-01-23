@@ -12,6 +12,10 @@ showTableOfContents: true
 
 Um clássico jogo de perseguição e conquista individual em equipa.
 
+## Imagem do Jogo
+![Caça à Mola em ação](action.jpg)
+
+
 ## Material Necessário
 
 - 25 molas de roupa por equipa

@@ -12,6 +12,10 @@ showTableOfContents: true
 
 Correr e desenhar! A equipa tem de completar um desenho pedido pelo animador, mas um de cada vez.
 
+## Imagem do Jogo
+![Desenho Mágico em ação](action.jpg)
+
+
 ## Material Necessário
 
 - Folhas de papel (1 por equipa)

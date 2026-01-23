@@ -12,6 +12,10 @@ showTableOfContents: true
 
 Será que consegues vestir-te e jogar voleibol com um balão ao mesmo tempo? É mais difícil do que parece!
 
+## Imagem do Jogo
+![Veste o Balão em ação](action.jpg)
+
+
 ## Material Necessário
 
 - 1 t-shirt larga por equipa

@@ -12,6 +12,10 @@ showTableOfContents: true
 
 Um jogo de agilidade e reflexos rápidos. Cuidado com as canelas!
 
+## Imagem do Jogo
+![Corda de Fogo em ação](action.jpg)
+
+
 ## Material Necessário
 
 - 1 corda com 3 metros

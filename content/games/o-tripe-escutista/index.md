@@ -12,6 +12,10 @@ showTableOfContents: true
 
 Quem é o mestre das amarrações? Prova a tua técnica nesta competição clássica.
 
+## Imagem do Jogo
+![O Tripé Escutista em ação](action.jpg)
+
+
 ## Material Necessário
 
 - 3 varas por equipa
