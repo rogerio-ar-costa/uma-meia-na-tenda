@@ -26,7 +26,7 @@ Abre o browser em: `http://localhost:1313/uma-meia-na-tenda/`
 hugo.exe --cleanDestinationDir
 ```
 
-## 🤝 Contribuir
+## Contribuir
 
 **Todos são bem-vindos a contribuir!** 
 
