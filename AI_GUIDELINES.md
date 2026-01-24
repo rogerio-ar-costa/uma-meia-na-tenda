@@ -127,6 +127,14 @@ Mais uma descrição clara do recurso.
 - Sem parágrafos longos entre recursos
 - Links verificados e funcionais
 
+#### Emojis para Links
+Use os seguintes emojis prefixados nos links para identificar o tipo de conteúdo:
+- 📄 **Documentos/Páginas**: Para links gerais, PDFs ou artigos.
+- 🎵 **Áudio/Música**: Para cancioneiros ou ficheiros de som.
+- 🔗 **Ferramentas/Externo**: Para plataformas interativas ou visualizadores externos.
+
+Exemplo: `📄 [Manual do Dirigente](https://...)`
+
 ### Para Jogos e Atividades
 
 ```markdown

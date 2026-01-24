@@ -1,5 +1,5 @@
 ---
-title: "Orientação (Coordenadas)"
+title: "Orientação"
 summary: "Ferramentas para trabalhar com coordenadas GPS e UTM"
 description: "Ferramentas para trabalhar com coordenadas GPS e UTM"
 tags: ["navegação", "orientação", "GPS", "coordenadas", "UTM"]
