@@ -13,5 +13,5 @@ Uma seleção de recursos essenciais para a formação e animação da Alcateia.
 
 📄 [Promessa Completa para Lobitos](https://archive.org/embed/lobitos-promessa-completa_202601)
 
-🎵 [Músicas para Lobitos](https://archive.org/embed/cne-lobitos-musicas)
+🎵 [Músicas para Lobitos](https://archive.org/details/cne-lobitos-musicas)
 
