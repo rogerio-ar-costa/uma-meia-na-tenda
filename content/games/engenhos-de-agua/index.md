@@ -24,6 +24,7 @@ Um jogo refrescante de construção e pontaria utilizando materiais reutilizados
 30 minutos
 
 ## Como Jogar
-1. Construir uma pistola de água, utilizando apenas materiais recicláveis e um pouco de cola quente.
-2. A equipa vencedora é aquela que, a uma determinada distância, num dado período de tempo, conseguir encher mais água no recipiente da sua equipa.
-3. Para tornar o jogo mais divertido, podem ser utilizados corantes de comida para dar cor à água das pistolas.
+Construir uma pistola de água utilizando apenas materiais recicláveis e um pouco de cola quente.
+
+A equipa vencedora é aquela que, a uma determinada distância, num dado período de tempo, conseguir encher mais água no recipiente da sua equipa. Para tornar o jogo mais divertido, podem ser utilizados corantes de comida para dar cor à água das pistolas.
+
