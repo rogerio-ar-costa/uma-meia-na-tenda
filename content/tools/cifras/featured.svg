@@ -7,5 +7,5 @@
   </defs>
   <rect width="1200" height="400" fill="url(#grad-cifras)"/>
   <text x="600" y="140" font-family="Arial, sans-serif" font-size="120" fill="white" text-anchor="middle" font-weight="bold">🔐</text>
-  <text x="600" y="280" font-family="Arial, sans-serif" font-size="60" fill="white" text-anchor="middle" font-weight="bold">Cifras Escutistas</text>
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="60" fill="white" text-anchor="middle" font-weight="bold">Códigos e Cifras</text>
 </svg>

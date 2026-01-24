@@ -11,11 +11,10 @@ categories: ["recursos"]
 Uma seleção de recursos essenciais para a formação e animação da Alcateia.
 {{< /lead >}}
 
-
 📄 [Oração do Lobito](https://archive.org/embed/lobitos-oracao)
 
 📄 [Lei e Máximas do Lobito](https://archive.org/embed/lobitos-leis-e-maximas)
 
 📄 [Promessa Completa para Lobitos](https://archive.org/embed/lobitos-promessa-completa_202601)
 
-🎵 [Músicas para Lobitos](https://archive.org/embed/cne-lobitos-musicas)
+🎵 [Músicas para Lobitos](https://archive.org/details/cne-lobitos-musicas)
