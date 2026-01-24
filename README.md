@@ -2,7 +2,7 @@
 
 Repositório de jogos, livros e ferramentas digitais para escuteiros do Corpo Nacional de Escutas.
 
-## 🎯 Sobre o Projeto
+## Sobre o Projeto
 
 Este site reúne recursos úteis para dirigentes e escuteiros:
 
@@ -10,12 +10,12 @@ Este site reúne recursos úteis para dirigentes e escuteiros:
 - **📚 Biblioteca**: Livros e recursos bibliográficos essenciais
 - **🔧 Ferramentas**: Apps e sites úteis para orientação, trilhos, cifras e mais
 
-## 🚀 Como Usar
+## Como Usar
 
 ### Ver o Site Localmente
 
 ```bash
-./.bin/hugo.exe server -D
+hugo.exe server -D
 ```
 
 Abre o browser em: `http://localhost:1313/uma-meia-na-tenda/`
@@ -23,7 +23,7 @@ Abre o browser em: `http://localhost:1313/uma-meia-na-tenda/`
 ### Construir para Produção
 
 ```bash
-./.bin/hugo.exe --cleanDestinationDir
+hugo.exe --cleanDestinationDir
 ```
 
 ## 🤝 Contribuir
