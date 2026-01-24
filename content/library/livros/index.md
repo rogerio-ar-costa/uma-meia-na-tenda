@@ -3,8 +3,8 @@ title: "Livros"
 description: "Biblioteca de livros essenciais para o escutismo"
 summary: "Referências bibliográficas relaciadas com o escutismo"
 date: 2026-01-17
-tags: ["Literatura", "Formação", "Recursos"]
-categories: ["Livros"]
+tags: ["livros", "formação"]
+categories: ["recursos"]
 ---
 
 <!--
