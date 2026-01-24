@@ -12,6 +12,8 @@ showTableOfContents: true
 
 O Jogo do Kim é uma das ferramentas mais antigas e eficazes para treinar os sentidos e a memória dos escuteiros.
 
+![Objetos variados para o Jogo do Kim](items.jpg)
+
 ## Material Necessário
 * 10 a 15 objetos variados
 * Um pano para cobrir os objetos
