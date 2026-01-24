@@ -1,5 +1,5 @@
 ---
-title: "Repelente de Team Rocket"
+title: "Engenhos de Água"
 summary: "Construção de pistolas de água com materiais recicláveis."
 description: "Construir uma pistola de água com materiais recicláveis e competir para encher um recipiente à distância."
 date: 2026-01-21
@@ -9,11 +9,11 @@ categories: ["Jogos"]
 
 Um jogo refrescante de construção e pontaria utilizando materiais reutilizados.
 
-![Repelente de Team Rocket](action.jpg)
+![Engenhos de Água](action.jpg)
 
 ## Material Necessário
-* 14+ garrafas de água de 0.5l
-* 14+ pontas de garrafas do tipo ''lava vidros'' (spray)
+* 2+ garrafas de água de 0.5l
+* 2+ pontas de garrafas do tipo ''lava vidros'' (spray)
 * Cola quente
 * 2 bacias / recipientes
 * Fita métrica
