@@ -40,7 +40,7 @@ home = ["HTML", "RSS", "JSON"]
 
 [[menu.footer]]
 name = "📋 Reportar Conteúdo"
-url = "#"
+url = "https://github.com/rogerio-ar-costa/uma-meia-na-tenda/issues/new"
 weight = 10
 [menu.footer.params]
 newTab = true

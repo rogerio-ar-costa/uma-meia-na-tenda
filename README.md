@@ -18,7 +18,9 @@ Este site reúne recursos úteis para dirigentes e escuteiros:
 hugo.exe server -D
 ```
 
-Abre o browser em: `http://localhost:1313/uma-meia-na-tenda/`
+Abre o browser em: `http://localhost:1313/`
+
+Se quiseres validar a experiência mais próxima do GitHub Pages, usa uma build de produção e confirma os links publicados em `https://rogerio-ar-costa.github.io/uma-meia-na-tenda/`.
 
 Antes de fazer merge, faz preview da branch localmente e confirma especialmente:
 - homepage;
