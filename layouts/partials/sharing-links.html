@@ -1,36 +1,13 @@
 {{ if .IsPage }}
   <section class="detail-actions print:hidden" aria-label="Ações da página">
-    <div class="detail-actions-header">
-      <p class="detail-actions-title">Leva este recurso contigo</p>
-      <p class="detail-actions-text">Copia a ligação, partilha no telemóvel ou imprime em PDF para usar offline.</p>
-    </div>
-    <div class="detail-actions-buttons">
-      <button
-        type="button"
-        class="detail-action-button"
-        data-copy-link
-        data-url="{{ .Permalink }}"
-        data-title="{{ .Title }}">
-        {{ partial "icon.html" "link" }}
-        <span>Copiar ligação</span>
-      </button>
-      <button
-        type="button"
-        class="detail-action-button"
-        data-share-link
-        data-url="{{ .Permalink }}"
-        data-title="{{ .Title }}">
-        {{ partial "icon.html" "whatsapp" }}
-        <span>Partilhar</span>
-      </button>
-      <button
-        type="button"
-        class="detail-action-button"
-        onclick="window.print()">
-        {{ partial "icon.html" "file-lines" }}
-        <span>Imprimir / PDF</span>
-      </button>
-    </div>
+    <button
+      type="button"
+      class="detail-action-button"
+      data-copy-link
+      data-url="{{ .Permalink }}">
+      {{ partial "icon.html" "link" }}
+      <span>Copiar ligação</span>
+    </button>
     <p class="detail-action-feedback" data-action-feedback aria-live="polite"></p>
   </section>
 
@@ -53,29 +30,6 @@
           setFeedback("Ligação copiada.");
         } catch (error) {
           setFeedback("Não foi possível copiar automaticamente. Usa a ligação da barra do browser.");
-        }
-      });
-
-      const shareButton = root.querySelector("[data-share-link]");
-      shareButton?.addEventListener("click", async () => {
-        const url = shareButton.dataset.url;
-        const title = shareButton.dataset.title;
-
-        if (navigator.share) {
-          try {
-            await navigator.share({ title, url });
-            setFeedback("Partilha iniciada.");
-            return;
-          } catch (error) {
-            if (error && error.name === "AbortError") return;
-          }
-        }
-
-        try {
-          await navigator.clipboard.writeText(url);
-          setFeedback("Partilha nativa não disponível. A ligação ficou copiada.");
-        } catch (error) {
-          setFeedback("Partilha nativa não disponível neste equipamento.");
         }
       });
     })();
