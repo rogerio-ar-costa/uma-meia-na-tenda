@@ -8,10 +8,12 @@ cascade:
 ---
 
 {{< lead >}}
-Coleção de **jogos divertidos e educativos** para lobitos, exploradores, pioneiros e caminheiros. Sempre que possível são incluídas instruções detalhadas tais, como, materiais necessários e adaptações por secção.
+Esta secção está **em preparação**. Em breve vais encontrar aqui uma coleção de jogos
+divertidos e educativos para lobitos, exploradores, pioneiros e caminheiros, com
+materiais necessários, passos e adaptações por secção.
 {{< /lead >}}
 
-<!--
-## Categorias de Jogos
-Explora os jogos organizados por tipo de atividade, secção ou objetivo pedagógico. Usa as tags para filtrar rapidamente o que procuras!
--->
+> [!NOTE]
+> Estamos a rever os jogos e a preparar boas ilustrações antes de os publicar.
+> Entretanto, explora os **[Recursos Pedagógicos]({{< ref "library" >}})** e as
+> **[Ferramentas]({{< ref "tools" >}})**.
