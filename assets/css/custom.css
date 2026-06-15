@@ -282,12 +282,26 @@ a[href*="/categories/"]:hover span {
   margin-bottom: 0.5rem;
 }
 
+/* Ritmo vertical entre secções da homepage (a linha divisória e o título
+   "Como usar" tinham 48px de margem, deixando blocos demasiado afastados).
+   A classe `home` é adicionada em layouts/partials/home/page.html. */
+.home hr {
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+  border-color: rgba(16, 185, 129, 0.2);
+}
+
+.home h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
 .resource-hub-card {
   display: flex;
   flex-direction: column;
-  gap: 0.85rem;
+  gap: 1rem;
   min-height: 100%;
-  padding: 1.5rem;
+  padding: 1.75rem;
   border-radius: 1.25rem;
   border: 1px solid rgba(16, 185, 129, 0.16);
   background: rgba(255, 255, 255, 0.78);
@@ -302,19 +316,25 @@ a[href*="/categories/"]:hover span {
   box-shadow: 0 20px 40px -24px rgba(5, 150, 105, 0.3);
 }
 
+/* As margens do prose (h3/p) somavam ao gap do flex e deixavam os cards
+   desequilibrados; aqui o espaçamento é controlado só pelo gap do card. */
 .resource-hub-card-title {
+  margin: 0;
   font-size: 1.2rem;
   font-weight: 700;
   color: #111827;
 }
 
 .resource-hub-card-text {
+  margin: 0;
   color: #4b5563;
   line-height: 1.65;
 }
 
 .resource-hub-card-hint {
+  margin: 1.25rem 0 0;
   margin-top: auto;
+  padding-top: 0.25rem;
   font-size: 0.95rem;
   font-weight: 600;
   color: #047857;

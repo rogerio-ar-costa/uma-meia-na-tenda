@@ -1,0 +1,13 @@
+{{/* Override do tema: acrescenta a classe `home` para o CSS específico da
+     página inicial (assets/css/custom.css) poder ser aplicado. */}}
+<article class="home max-w-full prose dark:prose-invert">
+  {{ with .Title }}
+    <header>
+      <h1>{{ . | emojify }}</h1>
+    </header>
+  {{ end }}
+  <section class="w-full">{{ .Content }}</section>
+</article>
+<section>
+  {{ partial "recent-articles/main.html" . }}
+</section>
