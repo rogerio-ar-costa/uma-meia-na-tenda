@@ -4,6 +4,9 @@ summary: "Ferramentas para codificar e descodificar mensagens com códigos secre
 description: "Ferramentas online para trabalhar com cifras e códigos secretos utilizados no escutismo"
 tags: ["cifras", "códigos", "morse", "criptografia"]
 categories: ["Ferramentas"]
+date: 2026-01-21
+showHero: true
+heroStyle: "basic"
 ---
 
 Ferramentas online para codificar e descodificar mensagens utilizando cifras e códigos secretos escutistas, incluindo Morse, César, Batalha Naval, Data, entre outros.

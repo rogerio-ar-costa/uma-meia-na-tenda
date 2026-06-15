@@ -4,6 +4,9 @@ summary: "Ferramentas para trabalhar com coordenadas GPS e UTM"
 description: "Ferramentas para trabalhar com coordenadas GPS e UTM"
 tags: ["navegação", "orientação", "GPS", "coordenadas", "UTM"]
 categories: ["Ferramentas"]
+date: 2026-01-21
+showHero: true
+heroStyle: "basic"
 ---
 
 Ferramentas online para converter coordenadas geográficas (latitude/longitude) para o sistema UTM e calcular distâncias entre pontos GPS.

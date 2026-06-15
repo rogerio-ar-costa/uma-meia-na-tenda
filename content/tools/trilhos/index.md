@@ -4,6 +4,9 @@ summary: "Plataforma para descobrir trilhos e rotas GPS"
 description: "Plataforma para descobrir trilhos e rotas GPS"
 tags: ["navegação", "orientação", "trilhos", "GPS"]
 categories: ["Ferramentas"]
+date: 2026-01-21
+showHero: true
+heroStyle: "basic"
 ---
 
 Plataforma com milhares de trilhos e rotas GPS em Portugal e no mundo, incluindo mapas detalhados e informações sobre distância, desnível e dificuldade.

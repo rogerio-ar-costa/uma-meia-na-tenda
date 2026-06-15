@@ -32,3 +32,7 @@ dist/
 # AI Tools
 /.claude
 dev-notes-private
+
+# Hugo installer binary (do not commit)
+hugo_extended_*.deb
+*.deb

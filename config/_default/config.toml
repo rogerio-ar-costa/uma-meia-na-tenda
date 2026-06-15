@@ -35,9 +35,6 @@ name = "🛠️ Ferramentas"
 pageRef = "tools"
 weight = 30
 
-[outputs]
-home = ["HTML", "RSS", "JSON"]
-
 [[menu.footer]]
 name = "📋 Reportar Conteúdo"
 url = "https://github.com/rogerio-ar-costa/uma-meia-na-tenda/issues/new"

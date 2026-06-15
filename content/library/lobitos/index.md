@@ -5,6 +5,8 @@ description: "Coleção de materiais, músicas e documentos pedagógicos especif
 date: 2026-01-24
 tags: ["lobitos", "alcateia", "cancioneiro"]
 categories: ["recursos"]
+showHero: true
+heroStyle: "basic"
 ---
 
 {{< lead >}}

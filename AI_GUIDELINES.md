@@ -137,6 +137,8 @@ Exemplo: `📄 [Manual do Dirigente](https://...)`
 
 ### Para Jogos e Atividades
 
+Todos os jogos e atividades devem seguir rigorosamente esta estrutura altamente visual, engajadora e completa:
+
 ```markdown
 ---
 title: "Nome do Jogo"
@@ -146,25 +148,46 @@ tags: ["Lobitos", "Interior", "Memória"]
 categories: ["Jogos"]
 ---
 
-Introdução breve ao jogo.
+{{\u003c lead \u003e}}
+Introdução super apelativa ao jogo com 1-2 frases dinâmicas que destaquem o quão divertido e inovador é.
+{{\u003c /lead \u003e}}
 
-## Material Necessário
+![Nome do Jogo](action.jpg)
+
+## 🎯 Objetivo
+1-2 frases explicando claramente a finalidade principal do jogo.
+
+## ⏱️ Duração e Participantes
+- **Duração:** X minutos
+- **Participantes:** Tamanho da equipa recomendado.
+
+## 🛠️ Material Necessário
 - Item 1
 - Item 2
 - Item 3
 
-## Imagem do Jogo
-Deves incluir uma imagem gerada por AI que ilustre o jogo ou os materiais necessários (estilo desenho animado e colorido).
-Salva a imagem como `image.jpg` (ou nome relevante) e adiciona ao conteúdo:
-`![Descrição da imagem](image.jpg)`
+## Imagem do Jogo (Nota AI)
+<!-- Lembra-te: Deves incluir uma imagem gerada por AI (cartoon style e colorful) e salva como `action.jpg`. Usa `![Descrição da imagem](action.jpg)` imediatamente após o lead, como no exemplo acima. -->
 
-## Como Jogar
-1. Passo 1
-2. Passo 2
-3. Passo 3
+## 📜 Como Jogar
+1. **Passo 1:** Descrição do passo.
+2. **Passo 2:** Descrição do passo.
+3. **Passo 3:** Descrição do passo.
 
-## Variações (opcional)
-Adaptações para diferentes secções ou contextos.
+## 🌟 Dicas de Animação
+
+> [!TIP]
+> Ideias para o imaginário do jogo, truques para o dirigente envolver mais as crianças, ou métodos para aumentar o espírito de equipa. Use Markdown blockquotes (GitHub alerts) `> [!TIP]` para destaque.
+
+## 🛡️ Segurança
+
+> [!WARNING]
+> Alertas cruciais sobre terreno, possíveis perigos, ou regras essenciais para evitar lesões. Use `> [!WARNING]` ou `> [!CAUTION]`.
+
+## 🔄 Variantes
+
+### Nome da Variante
+Como adaptar o jogo a espaços mais pequenos, menos material, idades diferentes, ou como complicar as regras para os mais velhos.
 
 ## Vídeo (opcional)
 {{\u003c youtube "VIDEO_ID" \u003e}}
