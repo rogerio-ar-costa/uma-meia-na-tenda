@@ -1,0 +1,18 @@
+# Traduções do site (sobrepõem-se ao tema Blowfish).
+# Rótulos dos admonitions / GitHub-style alerts (> [!TIP], > [!WARNING], ...).
+admonition:
+  note: "Nota"
+  tip: "Dica"
+  important: "Importante"
+  warning: "Aviso"
+  caution: "Cuidado"
+  danger: "Perigo"
+  info: "Informação"
+  success: "Sucesso"
+  question: "Pergunta"
+  example: "Exemplo"
+  quote: "Citação"
+  abstract: "Resumo"
+  failure: "Falha"
+  bug: "Problema"
+  todo: "A fazer"
